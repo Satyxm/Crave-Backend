@@ -1,0 +1,30 @@
+{
+  "name": "crave",
+  "version": "1.0.0",
+  "description": "Join Crave! A place for Foodies!!",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satyxm/Crave.git"
+  },
+  "keywords": [
+    "Recipe",
+    "Saver"
+  ],
+  "author": "Satyam Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Satyxm/Crave/issues"
+  },
+  "homepage": "https://github.com/Satyxm/Crave#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  }
+}
