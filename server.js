@@ -3,14 +3,20 @@ const express = require('express') // step -1 (requiring express and mongoose)
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 10000
+require('dotenv').config();
+
 const { User, Recipe } = require('./models');// importing models from models.js
 
 
 // Step 2: Setting Up the Kitchen (Database Connection)
-mongoose.connect('mongodb://127.0.0.1:27017/craveDB', {
-  useUnifiedTopology: true, //It's recommended to set this option to true to ensure your application uses the latest and most efficient connection handling.
+const mongoUsername = process.env.MONGO_USERNAME;
+const mongoPassword = process.env.MONGO_PASSWORD;
+
+mongoose.connect(`mongodb+srv://${mongoUsername}:${mongoPassword}@cluster0.0x0pioh.mongodb.net/?retryWrites=true&w=majority`, {
+  useUnifiedTopology: true,
 });
+
 
 // Preparing the Cooking Utensils (Middleware)
 app.use(express.json());
