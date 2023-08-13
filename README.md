@@ -35,4 +35,8 @@ Thank you for being a valued member of the Crave community. I eagerly anticipate
 
 Stay connected, stay engaged, and stay excited for the upcoming enhancements on Crave!
 
+Signing off,
+
+Satyam Singh
+
 *Please note that the provided information is based on the current state of development and may be subject to adjustments as I refine and enhance the enhancement.*
