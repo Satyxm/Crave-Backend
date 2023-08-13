@@ -35,6 +35,8 @@ Thank you for being a valued member of the Crave community. I eagerly anticipate
 
 Stay connected, stay engaged, and stay excited for the upcoming enhancements on Crave!
 
+[Visit Crave](https://crave-beige.vercel.app/)
+
 Signing off,
 
 Satyam Singh
